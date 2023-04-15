@@ -4,8 +4,7 @@ pipeline {
   tools {
       maven 'M2_HOME'
      }
-  Stages {
-
+  stages {
     stage('Checkout') {
        steps {
          echo 'checkout code from github repo'
