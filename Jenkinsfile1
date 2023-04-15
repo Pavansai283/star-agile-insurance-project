@@ -8,7 +8,7 @@ pipeline {
 
     stage('Checkout') {
        steps {
-         echo 'checkout code from github'
+         echo 'checkout code from github repo'
 	 git 'https://github.com/Pavansai283/star-agile-insurance-project.git'
 	 }
 	}
