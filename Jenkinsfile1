@@ -11,7 +11,7 @@ pipeline {
 	 git 'https://github.com/Pavansai283/star-agile-insurance-project.git'
 	 }
 	}
-    stage('build application') {
+    stage('building application') {
        steps {
          echo "Cleaning... Compiling... Testing... Packaging..."
          sh 'mvn clean package'
